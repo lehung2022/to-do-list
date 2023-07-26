@@ -1,0 +1,9 @@
+Property 'focus' does not exist on type 'never'.
+=> Solution to the above error: 
+https://claritydev.net/blog/typescript-typing-react-useref-hook
+----------------------------------
+Type '{ textDecoration: string; } | null' is not assignable to type 'CSSProperties | undefined'.
+  Type 'null' is not assignable to type 'CSSProperties | undefined'.
+The expected type comes from property 'style' which is declared here on type 'DetailedHTMLProps<LabelHTMLAttributes<HTMLLabelElement>, HTMLLabelElement>'
+----------------------------------
+https://reacthustle.com/blog/how-to-use-react-useref-in-typescript
