@@ -8,7 +8,7 @@ const Header = ({ title }: any) => {
   }
   
   Header.defaultProps = {
-    title: "MK Characters Lists"
+    title: "Kengan Omega Character Lists"
   }
   
   export default Header;

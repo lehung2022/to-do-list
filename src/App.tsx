@@ -7,8 +7,8 @@ import AddItem from "./components/AddItem";
 
 function App() {
   const [items, setItems] = useState(JSON.parse(localStorage.getItem('shoppinglist')!) || []);
-  const [newItem, setNewItem] = useState('')
-  const [search, setSearch] = useState('')
+  const [newItem, setNewItem] = useState('');
+  const [search, setSearch] = useState('');
 
   const setAndSaveItems = (newItems: any) => {
     setItems(newItems);
