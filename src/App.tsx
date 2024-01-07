@@ -29,8 +29,8 @@ function App() {
   // The fault is Uncaught TypeError: items is not iterable
   // The fault was fixed, by adding an empty array
 
- 
- 
+
+
   const handleCheck = (id: any) => {
     const listItems = items?.map((item: any) => item?.id === id ? { ...item, checked: !item.checked } : item);
     setAndSaveItems(listItems);
